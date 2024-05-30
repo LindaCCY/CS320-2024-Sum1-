@@ -5,11 +5,10 @@ use "./../assign01-lib.sml";
 (* ****** ****** *)
 
 (*
-fun
-int2str
-(x: int): string =
-raise MyNotImplementedExn
-*)
+
+
+fun int2str(i0: int): string = Int.toString i0
+
 
 (* ****** ****** *)
 
