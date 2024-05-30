@@ -4,12 +4,9 @@ use "./../assign01-lib.sml";
 
 (* ****** ****** *)
 
-(*
-fun
-stringrev
-(cs: string): string =
-raise MyNotImplementedExn
-*)
+
+fun stringrev (cs: string): string =
+    implode (rev (explode cs))
 
 (* ****** ****** *)
 
