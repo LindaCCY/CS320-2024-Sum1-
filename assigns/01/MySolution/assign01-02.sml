@@ -4,7 +4,7 @@ use "./../assign01-lib.sml";
 
 (* ****** ****** *)
 
-(*
+
 fun isPrime (n0: int): bool =
     let
         val limit = Real.fromInt n0 ** 0.5
