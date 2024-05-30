@@ -5,10 +5,11 @@ use "./../assign01-lib.sml";
 (* ****** ****** *)
 
 
-fun str2int (cs : string) : int =
+fun str2int cs =
   case Int.fromString cs of
-    SOME i => i
-  | NONE => raise 
+      SOME i => i
+    | NONE => raise Domain
+
 
 (* ****** ****** *)
 
