@@ -25,7 +25,6 @@ fun isPrime (n0: int): bool =
             not isDivisible (n0, 3) 
     end
 
-raise MyNotImplementedExn
 *)
 
 (* ****** ****** *)
